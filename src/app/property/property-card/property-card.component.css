@@ -1,0 +1,50 @@
+.card{
+    min-height: 400px;
+}
+
+.card-body h1{
+    font-family: fantasy;
+    color:hsl(220, 100%, 50%);
+}
+
+.font-highlight{
+    font-style: italic;
+    color: rgb(255, 25, 0);
+}
+.card:hover img{
+    transform: scale(1.2,1.2);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    height: 300px;
+    opacity: .9;
+}
+
+.card img{
+    transform: scale(1,1);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    height: 300px;
+}
+
+.card-img-wrapper{
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-wrapper:hover .member-icons{
+    bottom: 0;
+}
+
+.member-icons{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-left: auto;
+    bottom: -30%;
+}
+
+.animate{
+    transition: all 0.3s ease-out;
+}
+
